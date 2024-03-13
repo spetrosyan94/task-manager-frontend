@@ -1,0 +1,13 @@
+.nav {
+  padding: 15px 30px;
+  box-sizing: border-box;
+
+  grid-area: navbar;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+}

@@ -1,0 +1,19 @@
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-areas:
+    "header header"
+    "navbar tasks";
+}
+
+@media (max-width: 576px) {
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "navbar"
+      "tasks";
+  }
+}
